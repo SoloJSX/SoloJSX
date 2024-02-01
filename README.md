@@ -19,11 +19,8 @@ bun i -D solojsx
 ```
 
 ## Usage
-#### TypeScript example
+#### Complete example
 [SoloJSX-template-ts](https://github.com/eekelof/SoloJSX-template-ts)
-
-#### JavaScript example
-[SoloJSX-template-js](https://github.com/eekelof/SoloJSX-template-js)
 
 ### Code Example
 ```jsx  
