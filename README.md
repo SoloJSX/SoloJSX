@@ -12,7 +12,19 @@ SoloJSX
 - No virtual DOM, no reactivity
 
 ## Installation
+### Quick script (recommended)
 
+#### Using npx
+```bash
+npx create-solojsx-app app
+```
+
+#### Using bun
+```bash
+bunx create-solojsx-app-bun app
+```
+
+### Manual installation
 #### Using npm
 ```bash
 npm i -D solojsx
@@ -22,6 +34,8 @@ npm i -D solojsx
 ```bash
 bun i -D solojsx
 ```
+
+
 
 ## Usage
 #### Complete example
