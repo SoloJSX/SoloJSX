@@ -16,11 +16,17 @@ SoloJSX
 
 #### Using npx
 ```bash
+# in current folder
+npx create-solojsx-app
+# in new folder
 npx create-solojsx-app app
 ```
 
 #### Using bun
 ```bash
+# in current folder
+bunx create-solojsx-app-bun
+# in new folder
 bunx create-solojsx-app-bun app
 ```
 
