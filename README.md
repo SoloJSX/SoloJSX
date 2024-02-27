@@ -42,3 +42,5 @@ const element = (
 document.body.appendChild(element);
 ```
 
+## License
+MIT
