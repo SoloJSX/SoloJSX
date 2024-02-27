@@ -2,14 +2,14 @@
 
 [![npm](https://img.shields.io/npm/v/solojsx)](https://www.npmjs.com/package/solojsx)
 [![npm](https://img.shields.io/npm/dm/solojsx)](https://www.npmjs.com/package/solojsx)
-[![bundlejs](https://deno.bundlejs.com/badge?q=solojsx@1.1.3)](https://www.npmjs.com/package/solojsx)
+[![bundlejs](https://deno.bundlejs.com/badge?q=solojsx@1.1.4)](https://www.npmjs.com/package/solojsx)
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
 - :sun_with_face: JSX that returns nodes
-- :gem: Supports attributes & events
-- :tada: No VDOM, No reactivity
-- :zap: Small size (357B, 260B gzip)
+- :gem: Supports Attributes & Events
+- :tada: No Virtual DOM
+- :zap: Small size (357B, 267B gzip)
 
 ## Getting started
 
