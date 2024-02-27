@@ -2,17 +2,17 @@
 
 [![npm](https://img.shields.io/npm/v/solojsx)](https://www.npmjs.com/package/solojsx)
 [![npm](https://img.shields.io/npm/dm/solojsx)](https://www.npmjs.com/package/solojsx)
-[![GitHub](https://img.shields.io/github/license/eekelof/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+[![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 SoloJSX
 
 ## Features
-- JSX that returns nodes
-- Supports attributes & events
-- No virtual DOM, no reactivity
+- :heavy_check_mark: JSX that returns nodes
+- :gem: Supports attributes & events
+- :tada: No VDOM, no reactivity
+- :zap: Small size, native performance
 
-## Installation
-### Quick script (recommended)
+## Getting started
 
 #### Using npx
 ```bash
@@ -30,24 +30,7 @@ bunx create-solojsx-app-bun
 bunx create-solojsx-app-bun app
 ```
 
-### Manual installation
-#### Using npm
-```bash
-npm i -D solojsx
-```
-
-#### Using bun
-```bash
-bun i -D solojsx
-```
-
-
-
 ## Usage
-#### Complete example
-[SoloJSX-template-ts](https://github.com/eekelof/SoloJSX-template-ts)
-
-### Code Example
 ```jsx  
 import solojsx from 'solojsx';
 

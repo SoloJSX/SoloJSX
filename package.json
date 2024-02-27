@@ -1,6 +1,6 @@
 {
     "name": "solojsx",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "SoloJSX",
     "type": "module",
     "main": "dist/index.js",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/eekelof/SoloJSX.git"
+        "url": "git+https://github.com/SoloJSX/SoloJSX.git"
     },
     "keywords": [
         "javascript",
@@ -21,9 +21,9 @@
     "author": "eekelof",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/eekelof/SoloJSX/issues"
+        "url": "https://github.com/SoloJSX/SoloJSX/issues"
     },
-    "homepage": "https://github.com/eekelof/SoloJSX#readme",
+    "homepage": "https://github.com/SoloJSX/SoloJSX#readme",
     "devDependencies": {
         "typescript": "^5.2.2"
     }
