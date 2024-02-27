@@ -4,9 +4,8 @@
 [![npm](https://img.shields.io/npm/dm/solojsx)](https://www.npmjs.com/package/solojsx)
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
-SoloJSX
+![alt text](https://github.com/SoloJSX/SoloJSX/blob/main/.github/solojsx_logo.png?raw=true)
 
-## Features
 - :heavy_check_mark: JSX that returns nodes
 - :gem: Supports attributes & events
 - :tada: No VDOM, No reactivity
