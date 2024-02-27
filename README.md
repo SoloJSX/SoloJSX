@@ -14,19 +14,23 @@
 ## Getting started
 
 #### Using npx
+##### In current folder
 ```bash
-# in current folder
 npx create-solojsx-app
-# in new folder
-npx create-solojsx-app app
+```
+#####  In new folder
+```bash
+npx create-solojsx-app project-name
 ```
 
 #### Using bun
+##### In current folder
 ```bash
-# in current folder
 bunx create-solojsx-app-bun
-# in new folder
-bunx create-solojsx-app-bun app
+```
+#####  In new folder
+```bash
+bunx create-solojsx-app-bun project-name
 ```
 
 ## Usage
@@ -40,6 +44,12 @@ const element = (
   </div>
 );
 document.body.appendChild(element);
+```
+
+#### With attributes and events
+```jsx  
+const onClick = (text: string) => alert(text);
+const e = <div style="color: red" onclick={() => onClick("Hi")}>Button</div>;
 ```
 
 ## License
