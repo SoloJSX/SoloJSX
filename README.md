@@ -9,8 +9,8 @@ SoloJSX
 ## Features
 - :heavy_check_mark: JSX that returns nodes
 - :gem: Supports attributes & events
-- :tada: No VDOM, no reactivity
-- :zap: Small size, native performance
+- :tada: No VDOM, No reactivity
+- :zap: Small size, Native performance
 
 ## Getting started
 
