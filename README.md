@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
-- :heavy_check_mark: JSX that returns nodes
+- :sun_with_face: JSX that returns nodes
 - :gem: Supports attributes & events
 - :tada: No VDOM, No reactivity
 - :zap: Small size, Native performance
