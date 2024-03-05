@@ -49,7 +49,7 @@ document.body.appendChild(element);
 #### With attributes and events
 ```jsx  
 const onClick = (text: string) => alert(text);
-const e = <div style="color: red" onclick={() => onClick("Hi")}>Button</div>;
+const e = <div style="color: red" onclick={() => onClick("Hi")}>Click Me</div>;
 ```
 
 ## License
