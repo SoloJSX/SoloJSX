@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/solojsx)](https://www.npmjs.com/package/solojsx)
 [![npm](https://img.shields.io/npm/dm/solojsx)](https://www.npmjs.com/package/solojsx)
-[![bundlejs](https://deno.bundlejs.com/badge?q=solojsx@1.1.5)](https://www.npmjs.com/package/solojsx)
+![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/solojsx)
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
