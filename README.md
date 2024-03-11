@@ -9,7 +9,7 @@
 - :sun_with_face: JSX that returns nodes
 - :gem: Supports Attributes & Events
 - :tada: No Virtual DOM
-- :zap: Small size (267 B)
+- :zap: Small size (286 B)
 
 ## Getting started
 
@@ -50,6 +50,15 @@ document.body.appendChild(element);
 ```jsx  
 const onClick = (text: string) => alert(text);
 const e = <div style="color: red" onclick={() => onClick("Hi")}>Click Me</div>;
+```
+
+#### Using an array
+```jsx  
+const e = <div>
+    List of divs:
+    <br />
+    {[1, 2, 3].map(i => <div>{i}</div>)}
+</div>;
 ```
 
 ## License
