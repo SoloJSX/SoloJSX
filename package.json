@@ -1,6 +1,6 @@
 {
     "name": "solojsx",
-    "version": "1.2.4",
+    "version": "1.2.6",
     "description": "SoloJSX",
     "type": "module",
     "main": "dist/index.js",
