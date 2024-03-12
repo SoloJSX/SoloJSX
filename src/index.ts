@@ -7,12 +7,12 @@ declare global {
 }
 export default function solojsx(type: string, props: { [key: string]: any }, ...children: any[]): HTMLElement {
     const e = document.createElement(type);
-    Object.keys(props || {}).forEach((k) => {
-        if (k.startsWith('on') && typeof props[k] === 'function')
-            e.addEventListener(k.toLowerCase().substring(2), props[k]);
+    for (const [k, v] of Object.entries(props)) {
+        if (k.startsWith('on') && typeof v === 'function')
+            e.addEventListener(k.toLowerCase().substring(2), v);
         else
-            e.setAttribute(k, props[k]);
-    });
+            e.setAttribute(k, v);
+    }
     const ac = (c: any) => {
         if (Array.isArray(c))
             c.forEach(d => ac(d));
