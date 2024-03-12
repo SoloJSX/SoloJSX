@@ -16,10 +16,8 @@ export default function solojsx(type: string, props: { [key: string]: any }, ...
     const ac = (c: any) => {
         if (Array.isArray(c))
             c.forEach(d => ac(d));
-        else if (typeof c == 'object')
-            e.appendChild(c);
         else
-            e.appendChild(document.createTextNode(c));
+            e.appendChild((typeof c == 'object') ? c : document.createTextNode(c));
     };
     (children || []).forEach(c => ac(c));
     return e;

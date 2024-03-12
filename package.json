@@ -1,6 +1,6 @@
 {
     "name": "solojsx",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "description": "SoloJSX",
     "type": "module",
     "main": "dist/index.js",
@@ -16,7 +16,9 @@
         "javascript",
         "typescript",
         "jsx",
-        "tsx"
+        "tsx",
+        "solojsx",
+        "solo"
     ],
     "author": "eekelof",
     "license": "MIT",

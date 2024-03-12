@@ -9,7 +9,7 @@
 - :sun_with_face: JSX that returns nodes
 - :gem: Supports Attributes & Events
 - :tada: No Virtual DOM
-- :zap: Small size (286 B)
+- :zap: Small size (284 B)
 
 ## Getting started
 
