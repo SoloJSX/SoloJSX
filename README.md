@@ -46,19 +46,30 @@ const element = (
 document.body.appendChild(element);
 ```
 
-#### With attributes and events
+#### Attributes and events
 ```jsx  
 const onClick = (text: string) => alert(text);
 const e = <div style="color: red" onclick={() => onClick("Hi")}>Click Me</div>;
 ```
 
-#### Using an array
+#### Array
 ```jsx  
 const e = <div>
-    List of divs:
-    <br />
     {[1, 2, 3].map(i => <div>{i}</div>)}
 </div>;
+```
+
+#### Ternary
+```jsx  
+const e = <div>
+   {true ? <div>Hello</div> : []}
+</div>;
+```
+
+#### Nested elements
+```jsx  
+const inner = <div>Hello</div>;
+const e = <div>{inner}</div>;
 ```
 
 ## License
