@@ -9,7 +9,7 @@
 - :sun_with_face: JSX that returns nodes
 - :gem: Supports Attributes & Events
 - :tada: No Virtual DOM
-- :zap: Small size (285 B)
+- :zap: Small bundle size (285 B)
 
 ## Getting started
 
@@ -35,41 +35,41 @@ bunx create-solojsx-app-bun project-name
 
 ## Usage
 ```jsx  
-import solojsx from 'solojsx';
+import solojsx from 'solojsx'
 
 const element = (
   <div>
     <h1>SoloJSX</h1>
     <p>SoloJSX is a library that returns nodes from JSX</p>
   </div>
-);
-document.body.appendChild(element);
+)
+document.body.appendChild(element)
 ```
 
 #### Attributes and events
 ```jsx  
-const onClick = (text: string) => alert(text);
-const e = <div style="color: red" onclick={() => onClick("Hi")}>Click Me</div>;
+const fun = (text: string) => alert(text)
+const e = <div style="color: red" onclick={() => fun("Hi")}>Click Me</div>
 ```
 
-#### Array
+#### Arrays
 ```jsx  
 const e = <div>
     {[1, 2, 3].map(i => <div>{i}</div>)}
-</div>;
+</div>
 ```
 
-#### Ternary
+#### Ternaries
 ```jsx  
 const e = <div>
    {true ? <div>Hello</div> : []}
-</div>;
+</div>
 ```
 
 #### Nested elements
 ```jsx  
-const inner = <div>Hello</div>;
-const e = <div>{inner}</div>;
+const inner = <div>Hello</div>
+const e = <div>{inner}</div>
 ```
 
 ## License
