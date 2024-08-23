@@ -12,25 +12,14 @@
 - :zap: Small bundle size (285 B)
 
 ## Getting started
-
-#### Using npx
-##### In current folder
-```bash
-npx create-solojsx-app
-```
-#####  In new folder
 ```bash
 npx create-solojsx-app project-name
 ```
-
-#### Using bun
-##### In current folder
+#### Options
 ```bash
-bunx create-solojsx-app-bun
-```
-#####  In new folder
-```bash
-bunx create-solojsx-app-bun project-name
+bunx create-solojsx-app-bun project-name # using bun
+npx create-solojsx-app # in current folder
+npx create-solojsx-app -m # minimal template
 ```
 
 ## Usage
