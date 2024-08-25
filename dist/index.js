@@ -1,11 +1,4 @@
-declare global {
-    namespace JSX {
-        interface IntrinsicElements {
-            [elemName: string]: any;
-        }
-    }
-}
-export default function solojsx(type: string, props: { [key: string]: any }, ...children: any[]): HTMLElement {
+export default function jsx(type, props, ...children) {
     const e = document.createElement(type);
     for (const [k, v] of Object.entries((props || {}))) {
         if (k.startsWith('on') && typeof v === 'function')
@@ -13,7 +6,7 @@ export default function solojsx(type: string, props: { [key: string]: any }, ...
         else
             e.setAttribute(k, v);
     }
-    const ac = (c: any) => {
+    const ac = (c) => {
         if (Array.isArray(c))
             c.forEach(d => ac(d));
         else

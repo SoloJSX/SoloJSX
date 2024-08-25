@@ -24,8 +24,6 @@ npx create-solojsx-app -m # minimal template
 
 ## Usage
 ```jsx  
-import solojsx from 'solojsx'
-
 const element = (
   <div>
     <h1>SoloJSX</h1>
