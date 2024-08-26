@@ -17,9 +17,11 @@ npx create-solojsx-app project-name
 ```
 #### Options
 ```bash
-bunx create-solojsx-app-bun project-name # using bun
 npx create-solojsx-app # in current folder
 npx create-solojsx-app -m # minimal template
+npx create-solojsx-app -js # javascript
+
+bunx create-solojsx-app-bun project-name # using bun
 ```
 
 ## Usage
