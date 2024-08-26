@@ -37,7 +37,7 @@ document.body.appendChild(element)
 
 #### Attributes and events
 ```jsx  
-const fun = (text: string) => alert(text)
+const fun = (text) => alert(text)
 const e = <div style="color: red" onclick={() => fun("Hi")}>Click Me</div>
 ```
 
