@@ -5,10 +5,10 @@
 [![npm package minimized gzipped size](https://img.shields.io/bundlejs/size/solojsx)](https://www.npmjs.com/package/solojsx)
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
-
-- :sun_with_face: JSX that returns nodes
+- :sun_with_face: JSX, nothing else
 - :gem: Supports Attributes & Events
 - :zap: Small bundle size (285 B)
+- :blue_square: TypeScript support
 
 ## Getting started
 ```bash
@@ -25,19 +25,14 @@ bunx create-solojsx-app-bun project-name # using bun
 
 ## Usage
 ```jsx  
-const element = (
-  <div>
-    <h1>SoloJSX</h1>
-    <p>SoloJSX is a library that returns nodes from JSX</p>
-  </div>
-)
-document.body.appendChild(element)
+const e = <div>Hello from SoloJSX</div>
+document.body.appendChild(e)
 ```
 
 #### Attributes and events
 ```jsx  
-const fun = (text) => alert(text)
-const e = <div style="color: red" onclick={() => fun("Hi")}>Click Me</div>
+const f = (text) => alert(text)
+const e = <div style="color: red" onclick={() => f("Hi")}>Click Me</div>
 ```
 
 #### Arrays
@@ -50,7 +45,7 @@ const e = <div>
 #### Ternaries
 ```jsx  
 const e = <div>
-   {true ? <div>Hello</div> : []}
+   {true ? <div>Hello</div> : null}
 </div>
 ```
 
