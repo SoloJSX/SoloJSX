@@ -6,7 +6,7 @@ export default function jsx(type, props, ...children) {
         else
             e.setAttribute(k, v)
     }
-    const ac = (c) => {
+    const ac = c => {
         if (Array.isArray(c))
             c.forEach(d => ac(d))
         else
