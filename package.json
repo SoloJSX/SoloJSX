@@ -1,7 +1,7 @@
 {
     "name": "solojsx",
-    "version": "2.2.1",
-    "description": "SoloJSX",
+    "version": "2.2.2",
+    "description": "Tiny JSX library",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -14,8 +14,7 @@
         "typescript",
         "jsx",
         "tsx",
-        "solojsx",
-        "solo"
+        "solojsx"
     ],
     "author": "eekelof",
     "license": "MIT",

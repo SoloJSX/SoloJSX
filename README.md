@@ -6,7 +6,8 @@
 [![GitHub](https://img.shields.io/github/license/SoloJSX/solojsx)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 - :sun_with_face: JSX, nothing else
-- :gem: Supports Attributes & Events
+- :gem: Supports attributes & events
+- :no_entry_sign: No reactivity, vdom or components
 - :zap: Small bundle size (287 B)
 
 ## Getting started
@@ -41,7 +42,7 @@ const e = <div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
 
 #### Ternaries
 ```jsx  
-const e = <div> {true ? <div>Hello</div> : null} </div>
+const e = <div> {true ? <div> Hello </div> : null} </div>
 ```
 
 #### Nested elements
