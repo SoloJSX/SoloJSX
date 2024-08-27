@@ -7,7 +7,7 @@
 
 - :sun_with_face: JSX, nothing else
 - :gem: Supports attributes & events
-- :no_entry_sign: No reactivity, vdom or components
+- :x: No reactivity, vdom or components
 - :zap: Small bundle size (287 B)
 
 ## Getting started
