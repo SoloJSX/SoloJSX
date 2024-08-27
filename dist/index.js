@@ -9,8 +9,8 @@ export default function jsx(type, props, ...children) {
     const ac = c => {
         if (Array.isArray(c))
             c.forEach(d => ac(d))
-        else
-            c ?? e.appendChild((typeof c == 'object') ? c : document.createTextNode(c))
+        else if (c != null)
+            e.appendChild((typeof c == 'object') ? c : document.createTextNode(c))
     }
     (children || []).forEach(c => ac(c))
     return e
