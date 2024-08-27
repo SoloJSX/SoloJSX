@@ -7,8 +7,7 @@
 
 - :sun_with_face: JSX, nothing else
 - :gem: Supports Attributes & Events
-- :zap: Small bundle size (285 B)
-- :blue_square: TypeScript support
+- :zap: Small bundle size (287 B)
 
 ## Getting started
 ```bash
@@ -25,34 +24,30 @@ bunx create-solojsx-app-bun project-name # using bun
 
 ## Usage
 ```jsx  
-const e = <div>Hello from SoloJSX</div>
+const e = <div> Hello from SoloJSX </div>
 document.body.appendChild(e)
 ```
 
 #### Attributes and events
 ```jsx  
 const f = (text) => alert(text)
-const e = <div style="color: red" onclick={() => f("Hi")}>Click Me</div>
+const e = <div style="color: red" onclick={() => f("Hi")}> Click Me </div>
 ```
 
 #### Arrays
 ```jsx  
-const e = <div>
-    {[1, 2, 3].map(i => <div>{i}</div>)}
-</div>
+const e = <div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
 ```
 
 #### Ternaries
 ```jsx  
-const e = <div>
-   {true ? <div>Hello</div> : null}
-</div>
+const e = <div> {true ? <div>Hello</div> : null} </div>
 ```
 
 #### Nested elements
 ```jsx  
-const inner = <div>Hello</div>
-const e = <div>{inner}</div>
+const inner = <div> Hello </div>
+const e = <div> {inner} </div>
 ```
 
 ## License
