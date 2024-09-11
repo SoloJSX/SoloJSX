@@ -51,5 +51,22 @@ const inner = <div> Hello </div>
 const e = <div> {inner} </div>
 ```
 
+## Examples
+### Simple todo list
+```jsx
+const input = <input />
+const list = <ul></ul>
+const add = () => list.prepend(<li> {input.value} </li>)
+const btn = <button onClick={add}> Add </button>
+document.body.append(input, btn, list)
+```
+
+### Templates
+- https://github.com/SoloJSX/SoloJSX-template-ts
+- https://github.com/SoloJSX/SoloJSX-template-ts-minimal
+- https://github.com/SoloJSX/SoloJSX-template-js
+- https://github.com/SoloJSX/SoloJSX-template-ts-todo
+
+
 ## License
 MIT
