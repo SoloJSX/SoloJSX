@@ -10,7 +10,7 @@ export default function jsx(type, props, ...children) {
         if (Array.isArray(c))
             c.forEach(d => ac(d))
         else if (c != null)
-            e.appendChild((typeof c == 'object') ? c : document.createTextNode(c))
+            e.appendChild(c instanceof Element ? c : document.createTextNode(c))
     }
     (children || []).forEach(c => ac(c))
     return e
