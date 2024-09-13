@@ -3,6 +3,8 @@ export default function jsx(type, props, ...children) {
     for (const [k, v] of Object.entries((props || {}))) {
         if (k.startsWith('on') && typeof v === 'function')
             e.addEventListener(k.toLowerCase().substring(2), v)
+        else if (k == 'style' && typeof v === 'object')
+            Object.assign(e.style, v)
         else
             e.setAttribute(k, v)
     }
