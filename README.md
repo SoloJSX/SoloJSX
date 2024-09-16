@@ -8,7 +8,7 @@
 - :sun_with_face: JSX, nothing else
 - :gem: Supports attributes & events
 - :x: No reactivity, vdom or components
-- :zap: Small bundle size (320 B)
+- :zap: Small bundle size (517 B)
 
 ## Getting started
 ```bash
@@ -49,6 +49,12 @@ const e = <div> {true ? <div> Hello </div> : null} </div>
 ```jsx  
 const inner = <div> Hello </div>
 const e = <div> {inner} </div>
+```
+
+#### Style object
+```jsx 
+const style = { color: "red" }
+const e = <div style={style}> Hello </div>
 ```
 
 ## Examples
