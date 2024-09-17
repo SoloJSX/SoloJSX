@@ -9,12 +9,6 @@ export default function jsx(type, props, ...children) {
         else
             e.setAttribute(k, v)
     }
-    const ac = c => {
-        if (Array.isArray(c))
-            c.forEach(d => ac(d))
-        else if (c != null)
-            e.appendChild(c instanceof Element ? c : document.createTextNode(c))
-    }
-    (children || []).forEach(c => ac(c))
+    e.append(...children)
     return e
 }
