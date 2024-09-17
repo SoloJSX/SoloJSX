@@ -8,6 +8,6 @@ export default function jsx(type, props, ...children) {
         else
             e.setAttribute(k, v)
     }
-    e.append(...children.flat().map(c => c != null ? c : []))
+    e.append(...children.flat(Infinity).map(c => c ?? []))
     return e
 }
