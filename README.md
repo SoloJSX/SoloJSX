@@ -67,6 +67,9 @@ const btn = <button onClick={add}> Add </button>
 document.body.append(input, btn, list)
 ```
 
+### Advanced todo list
+- https://github.com/eekelof/localboards
+
 ### Templates
 - https://github.com/SoloJSX/SoloJSX-template-ts
 - https://github.com/SoloJSX/SoloJSX-template-ts-minimal
