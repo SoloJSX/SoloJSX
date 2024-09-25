@@ -26,7 +26,7 @@ bunx create-solojsx-app-bun project-name # using bun
 ## Usage
 ```jsx  
 const e = <div> Hello from SoloJSX </div>
-document.body.appendChild(e)
+document.body.append(e)
 ```
 
 #### Attributes and events
