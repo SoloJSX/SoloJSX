@@ -75,7 +75,7 @@ document.body.append(input, btn, list)
 - https://github.com/SoloJSX/SoloJSX-template-ts-minimal
 - https://github.com/SoloJSX/SoloJSX-template-js
 - https://github.com/SoloJSX/SoloJSX-template-ts-todo
-
+- https://github.com/SoloJSX/SoloJSX-template-ts-three
 
 ## License
 MIT
