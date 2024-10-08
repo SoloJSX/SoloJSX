@@ -1,6 +1,6 @@
 {
     "name": "solojsx",
-    "version": "2.4.15",
+    "version": "2.4.16",
     "description": "Tiny JSX library",
     "type": "module",
     "main": "dist/index.js",
