@@ -12,15 +12,14 @@
 
 ## Getting started
 ```bash
-npx create-solojsx-app project-name
+npx create-solojsx-app project
 ```
 #### Options
 ```bash
 npx create-solojsx-app # in current folder
 npx create-solojsx-app -m # minimal template
 npx create-solojsx-app -js # javascript
-
-bunx create-solojsx-app-bun project-name # using bun
+bunx create-solojsx-app-bun project # using bun
 ```
 
 ## Usage
@@ -29,32 +28,37 @@ const e = <div> Hello from SoloJSX </div>
 document.body.append(e)
 ```
 
-#### Attributes and events
+#### Attributes
+```jsx  
+<div style="color: red"> Hello </div>
+```
+
+#### Events
 ```jsx  
 const f = (text) => alert(text)
-const e = <div style="color: red" onclick={() => f("Hi")}> Click Me </div>
+<div onclick={() => f("Hi")}> Click Me </div>
 ```
 
 #### Arrays
 ```jsx  
-const e = <div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
+<div> {[1, 2, 3].map(i => <div> {i} </div>)} </div>
 ```
 
 #### Ternaries
 ```jsx  
-const e = <div> {true ? <div> Hello </div> : null} </div>
+<div> {true ? <div> Hello </div> : null} </div>
 ```
 
 #### Nested elements
 ```jsx  
 const inner = <div> Hello </div>
-const e = <div> {inner} </div>
+<div> {inner} </div>
 ```
 
 #### Style object
 ```jsx 
 const style = { color: "red" }
-const e = <div style={style}> Hello </div>
+<div style={style}> Hello </div>
 ```
 
 ## Examples
