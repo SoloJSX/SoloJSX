@@ -19,7 +19,7 @@ npx create-solojsx-app project
 npx create-solojsx-app # in current folder
 npx create-solojsx-app -m # minimal template
 npx create-solojsx-app -js # javascript
-bunx create-solojsx-app-bun project # using bun
+bunx create-solojsx-app-bun # using bun
 ```
 
 ## Usage
